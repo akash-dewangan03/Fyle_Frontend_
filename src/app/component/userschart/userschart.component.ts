@@ -8,11 +8,10 @@ import { Chart, CategoryScale, LinearScale, BarController, BarElement, Title, To
 Chart.register(CategoryScale, LinearScale, BarController, BarElement, Title, Tooltip, Legend);
 
 @Component({
-  selector: 'app-userschart',
-  standalone: true,
-  imports: [CommonModule, BaseChartDirective],
-  templateUrl: './userschart.component.html',
-  styleUrls: ['./userschart.component.css'],
+    selector: 'app-userschart',
+    imports: [CommonModule, BaseChartDirective],
+    templateUrl: './userschart.component.html',
+    styleUrls: ['./userschart.component.css']
 })
 export class UserschartComponent implements OnInit {
   @ViewChild(BaseChartDirective) chart: BaseChartDirective | undefined;

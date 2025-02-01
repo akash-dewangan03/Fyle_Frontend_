@@ -9,12 +9,11 @@ import { BaseChartDirective } from 'ng2-charts';
 import { Observable, of } from 'rxjs';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, FormsModule, CommonModule, BaseChartDirective, UserschartComponent],
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
-  schemas: [NO_ERRORS_SCHEMA]
+    selector: 'app-root',
+    imports: [RouterOutlet, FormsModule, CommonModule, BaseChartDirective, UserschartComponent],
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css'],
+    schemas: [NO_ERRORS_SCHEMA]
 })
 export class AppComponent implements OnInit {
   title = 'Health Challenge Tracker';
