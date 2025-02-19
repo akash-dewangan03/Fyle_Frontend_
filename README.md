@@ -30,7 +30,7 @@ This is an Angular 19 single-page application (SPA) designed to track users' wor
 
 Successfully achieved 100% code coverage for unit tests on a single component and one service.
 
-<img width="1000" alt="codeCoverage" src="https://github.com/user-attachments/assets/93c64985-46b1-48a2-8df7-453d62495fb7" />
+<img width="1000" alt="codeCoverage" src="https://github.com/user-attachments/assets/1b9078d6-5ca1-440c-9f8e-42df4f7545a4" />
 
 ## Screenshots
 
